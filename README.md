@@ -20,7 +20,7 @@ Este é um projeto simples em Python que utiliza a [AwesomeAPI](https://docs.awe
 Clone o repositório e execute o script com Python:
 
 ```bash
-git clone https://github.com/zeuzinn/conversor-moedas-api.git
+git clone https://github.com/zeuzinn/Conversor_moedas.git
 
 cd conversor-moedas-api
 python main.py
