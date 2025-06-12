@@ -66,8 +66,11 @@ conversor-moedas-api/
 ├── historico.txt       # É Criado após a primeira execução
 └── README.md
 ```
+<<<<<<< HEAD
 
 ## 📦 Requisitos
 Python 3.7+
 
 Biblioteca `requests`
+=======
+>>>>>>> a655aa9973af6c28a7ab9a08c09716ef54125194
