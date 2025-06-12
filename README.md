@@ -9,10 +9,19 @@ Este é um projeto simples em Python que utiliza a [AwesomeAPI](https://docs.awe
 ## ✅ Funcionalidades
 
 - Entrada interativa de valor em Reais
-- Escolha da moeda de destino
+
+- Escolha da moeda de destino (USD, EUR, BTC)
+
 - Cotação em tempo real com a AwesomeAPI
+
 - Cálculo automático do valor convertido
+
 - Validação de entrada (valores negativos ou inválidos)
+
+- Exibição da data e hora da conversão
+
+- Registro do histórico em arquivo historico.txt
+
 - Loop contínuo até o usuário decidir sair
 
 ## ▶️ Como usar
@@ -20,32 +29,45 @@ Este é um projeto simples em Python que utiliza a [AwesomeAPI](https://docs.awe
 Clone o repositório e execute o script com Python:
 
 ```bash
-git clone https://github.com/zeuzinn/conversor-moedas-api.git
-
-cd conversor-moedas-api
+git clone https://github.com/Zeuzinn/Conversor_moedas.git
+cd conversor_de_moedas
+pip install requests
 python main.py
+
 ```
 
 ## 🖥️ Exemplo de uso
 ```
-=== CONVERSOR DE MOEDAS ===
-
-Valor em reais: 100
+------------------------------
+CONVERSOR DE MOEDAS
+------------------------------
+Valor em reais R$ 100
 Converter para (USD, EUR, BTC...): USD
-R$100.00 - $18.87
-```
 
-## 📦 Requisitos
-Python 3.7+
+Data: 12/06/2025 | Horário: 14:23
+R$100.00 - Convertido: $18.87
+----------------------------------------
+Deseja converter outro valor? (S/N): N
 
-Biblioteca `requests` 
+Programa encerrado.
+
+``` 
 
 ## 📁 Estrutura do projeto
 ```
 conversor-moedas-api/
 ├── conversor_de_moedas/
 │   ├── __init__.py
-│   └── conversor.py
+│   ├── conversor.py
+│   ├── data_hora.py
+│   ├── historico.py
+│   └── interacao.py
 ├── main.py
+├── historico.txt       # É Criado após a primeira execução
 └── README.md
 ```
+
+## 📦 Requisitos
+Python 3.7+
+
+Biblioteca `requests`
